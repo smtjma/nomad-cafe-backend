@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'nomadcafe.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Cafe', #　作成したデータベース名
+        'NAME': 'nomad', #　作成したデータベース名
         'USER': 'root', # ログインユーザー名
         'HOST': '',
         'PORT': '',

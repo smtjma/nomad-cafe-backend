@@ -1,8 +1,8 @@
 from rest_framework import serializers
-from cafelog.models import Cafeinfo
+from cafelog.models import cafe_info
 
-class CafeinfoSerializer(serializers.ModelSerializer):
+class cafe_infoSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Cafeinfo
+        model = cafe_info
         fields = '__all__'
         
