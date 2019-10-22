@@ -7,8 +7,9 @@ verify_ssl = true
 
 [packages]
 django = "~=2.2"
-django-rest-framework = "*"
-djongo = "*"
+django-rest-framework = "~=0.1"
+djongo = "~=1.2"
+requests = "~=2.22"
 
 [requires]
 python_version = "3.7"
